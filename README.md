@@ -1,4 +1,4 @@
-## Decoupling Static and Hierarchical Motion Perception for Referring Video Segmentation
+# Decoupling Static and Hierarchical Motion Perception for Referring Video Segmentation
 
 This repository contains code for our **CVPR2024** paper
 
