@@ -75,7 +75,7 @@ This project is based on [MeViS](https://github.com/henghuiding/MeViS). Many tha
 ## BibTeX
 Please consider to cite DsHmp if it helps your research.
 
-```latex
+```bibtex
 @inproceedings{DsHmp,
   title={Decoupling static and hierarchical motion perception for referring video segmentation},
   author={He, Shuting and Ding, Henghui},
