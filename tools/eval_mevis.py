@@ -56,8 +56,8 @@ def eval_queue(q, rank, out_dict, mevis_pred_path):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mevis_exp_path", type=str, default="datasets/mevis/valid/meta_expressions_2236valid_with_annotation.json")
-    parser.add_argument("--mevis_mask_path", type=str, default="datasets/mevis/valid/mask_dict.json")
+    parser.add_argument("--mevis_exp_path", type=str, default="datasets/mevis/valid_u/meta_expressions.json")
+    parser.add_argument("--mevis_mask_path", type=str, default="datasets/mevis/valid_u/mask_dict.json")
     parser.add_argument("--mevis_pred_path", type=str, default="output/mevis/inference")
     parser.add_argument("--save_name", type=str, default="mevis_test.json")
     args = parser.parse_args()
